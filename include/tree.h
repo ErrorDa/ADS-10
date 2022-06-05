@@ -8,7 +8,7 @@
 class Tree {
  private:
     struct Node {
-        char value=' ';
+        char value = ' ';
         bool fool = false;
         int cnum = 0;
         std::vector<Node*> leaf;
